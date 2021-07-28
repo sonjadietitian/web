@@ -1,0 +1,73 @@
+<!doctype html>	
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sonja Neumann - Paediatric Dietitian</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="description" content="Paediatric Dietitian | Fussy Eating | Stressful Mealtimes | Tube Weaning | Child Growth | Oral aversion | Telehealth.">
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<img src="Images/logo.png" class="logo">
+			<nav>
+				<ul id="menuList">
+					<li><a href="">Home</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Consult</a></li>
+					<li><a href="">Contact Us</a></li>
+				</ul>
+			</nav>
+			<img src="Images/menu.png" class="menu-icon" onclick="togglemenu()">
+		</div>
+
+		<div class="row">
+			<div class="col-1">
+				<h2>Sonja Neumann</h2>
+				<h3>Paediatric Dietitian</h3>
+				<p>Fussy Eating | Tube Weaning | Child Growth | Oral Aversion | Telehealth</p>
+				<br><button type="button">Contact<img src="Images/arrow.png"></button>	
+			</div>
+
+			<div class="col-2">
+				<img src="Images/hands food.jpg" class="hands">
+				<div class="color-box"></div>
+				<div class="add-btn">
+					<img src="Images/add.png">
+					<p><small>about</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="socials">
+			 <img src="Images/fb.png">
+			 <img src="Images/ig.png">
+			 <img src="Images/li.png">
+		</div>
+	</div>
+
+		<script>
+			var menuList = document.getElementById("menuList");
+
+			menuList.style.maxHeight = "0px"
+
+			function togglemenu(){
+
+				if(menuList.style.maxHeight == "0px")
+					{
+						menuList.style.maxHeight = "130px";
+					}
+				else
+					{
+					 menuList.style.maxHeight = "0px";
+					}
+			}
+		</script>
+	</body>
+</html>
+
+
+
+
